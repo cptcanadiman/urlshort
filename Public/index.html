@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>URL Shortener Service</title>
+  <style type="text/css">
+   
+  </style>
+  </head>
+  <body>
+  <h1>URL Shortener Service</h1>
+  <h4>User Stories</h4>
+  <ul>
+      <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+      <li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+      <li>When I visit that shortened URL, it will redirect me to my original link.</li>
+  </ul>
+  <h2>Example Creation usage :</h2>
+  <code>https://www.dlukurlshort.herokuapp.com/www.google.com</code>
+  <code>https://www.dlukurlshort.herokuapp.com/www.sportsnet.ca</code>
+  <h2>Example Creation Output :</h2> 
+  <code>{{ "original_url":"http://www.google.com", "short_url":"https://dlukurlshort.herokuapp.com/1234" }}</code>
+  <h2>Usage :</h2>
+  <code>https://dlukurlshort.herokuapp.com/1234</code>
+  <h2>Will direct to : </h2>
+  <code>www.google.com</code>
+  </body>
+</html>

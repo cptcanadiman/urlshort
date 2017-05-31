@@ -1,0 +1,25 @@
+{
+  "name": "urlshort",
+  "version": "1.0.0",
+  "description": "URL shortening service",
+  "main": "urlshort.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cptcanadiman/urlshort.git"
+  },
+  "author": "Daryl Lukashal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cptcanadiman/urlshort/issues"
+  },
+  "homepage": "https://github.com/cptcanadiman/urlshort#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "is-url": "^1.2.2",
+    "mongodb": "^2.2.27",
+    "shortid": "^2.2.8"
+  }
+}
