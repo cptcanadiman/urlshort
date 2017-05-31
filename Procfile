@@ -1,1 +1,1 @@
-node urlshort.js
+web: node server.js
